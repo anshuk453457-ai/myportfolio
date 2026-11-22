@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>ANSHU KUMARI</span></h1>
+
+            <h2>Data Analytics</h2>
+
+            <p>
+                I am passionate about technology, creativity,
+                and learning new skills. Welcome to my personal portfolio!
+            </p>
+
+            <div class="home-buttons">
+                <a href="#contact" class="btn">Contact Me</a>
+                <a href="#projects" class="btn btn-outline">View Projects</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/anshuk453457-ai" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/anshu-kumari-bb0271325" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <img src="/profile.png" alt="Profile Photo">
+        </div>
+    </section>
+
+    
+<!-- About Section -->
+<section class="about section" id="about">
+    <div class="section-heading">
+        <p>GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-content">
+        <div class="about-image">
+            <img src="/profile.png" alt="Anshu Kumari">
+        </div>
+
+        
+<div class="about-text">
+    <h3>I'm a B.Tech Computer Science Student & Aspiring Developer</h3>
+
+    <p>
+        Hello! I'm Anshu Kumari, a motivated B.Tech Computer
+        Science student with a strong interest in programming
+        and web development. I enjoy exploring technology and
+        building my technical knowledge.
+    </p>
+
+    <p>
+        I have knowledge of C, Python, HTML, CSS, JavaScript,
+        and DBMS. I am passionate about problem-solving,
+        developing creative solutions, and continuously
+        improving my programming skills.
+    </p>
+
+    <p>
+        I believe in teamwork, continuous learning, and
+        adapting to new technologies. My goal is to gain
+        practical industry experience and grow as a skilled
+        software developer.
+    </p>
+
+    <div class="personal-details">
+        <p><strong>Name:</strong> Anshu Kumari</p>
+        <p><strong>Email:</strong> anshuk453457@gmail.com</p>
+    </div>
+
+    <a href="#contact" class="btn">Let's Connect</a>
+</div>
+
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="section-heading">
+            <p>WHAT I KNOW</p>
+            <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-card pink">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Building website structure.</p>
+            </div>
+
+            <div class="skill-card purple">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Designing beautiful webpages.</p>
+            </div>
+
+            <div class="skill-card blue">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Adding interactivity to websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+        <div class="section-heading">
+            <p>MY ACADEMIC JOURNEY</p>
+            <h2>My <span>Education</span></h2>
+        </div>
+
+        <div class="education-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Btech CSE</h3>
+            <p>ICFAI UNIVERSITY DEHRADUNE</p>
+            <span>2024 - 2028</span>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume section" id="resume">
+        <div class="section-heading">
+            <p>MY EXPERIENCE AND QUALIFICATIONS</p>
+            <h2>My <span>Resume</span></h2>
+        </div>
+
+        <p class="resume-text">Explore my resume to know more about my education and skills.</p>
+
+        <div class="resume-buttons">
+            <a href="resume.pdf" target="_blank" class="btn">
+                <i class="fas fa-eye"></i> View Resume
+            </a>
+
+            <a href="resume.pdf" download class="btn btn-outline">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="section-heading">
+            <p>LET'S TALK</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+       <div class="contact-card">
+
+    <p>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:anshuk453457@gmail.com">
+            anshuk453457@gmail.com
+        </a>
+    </p>
+
+    <p>
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/anshuk453457-ai"
+           target="_blank"
+           rel="noopener noreferrer">
+            GitHub Profile
+        </a>
+    </p>
+
+    <p>
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/anshu-kumari-bb0271325"
+           target="_blank"
+           rel="noopener noreferrer">
+            LinkedIn Profile
+        </a>
+    </p>
+
+</div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Your Name. All Rights Reserved.</p>
+        <a href="#home"><i class="fas fa-arrow-up"></i> Back to Top</a>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
